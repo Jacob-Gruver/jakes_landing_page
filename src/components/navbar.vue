@@ -24,19 +24,27 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <router-link :to="{ name: 'Home' }" class="nav-link">
-            Home
+            <i class="fa fa-home fa-lg"></i>
           </router-link>
         </li>
         <li class="nav-item">
           <router-link :to="{ name: 'About' }" class="nav-link">
-            About
+            <i class="fa fa-user fa-lg"></i>
           </router-link>
         </li>
       </ul>
       <span class="navbar-text">
-        <p class="text-success"> Email: Gruvinbro@Gmail.com </p>
-        <p class="text-success"> LinkedIn: https://www.linkedin.com/in/jacob-gruver-6777a61b1/ </p>
-        <!-- <font-awesome-icon :icon="coffeeCup" /> -->
+        <!-- <a href="gruvinbro@Gmail.com">
+          <i class="fa fa-envelope-o fa-lg"></i>
+        </a> -->
+        <!-- <p class="text-success"> Email: gruvinbro@Gmail.com </p> -->
+        <div>
+          <a class="btn btn-outline-primary text-primary" href="https://www.linkedin.com/in/jacob-gruver-6777a61b1/">
+            <h5>
+              Check out my Linkedin Account --> <i class="fa fa-linkedin-square fa-lg"></i>
+            </h5>
+          </a>
+        </div>
 
         <!-- <div class="dropdown">
           <div
