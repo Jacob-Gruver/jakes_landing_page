@@ -39,7 +39,7 @@
         </a> -->
         <!-- <p class="text-success"> Email: gruvinbro@Gmail.com </p> -->
         <div>
-          <a class="btn btn-outline-primary text-primary" href="https://www.linkedin.com/in/jacob-gruver-6777a61b1/">
+          <a class="linkedin-route btn btn-outline-primary text-primary mr-3" href="https://www.linkedin.com/in/jacob-gruver-6777a61b1/">
             <h5>
               Check out my Linkedin Account --> <i class="fa fa-linkedin-square fa-lg"></i>
             </h5>
@@ -119,5 +119,9 @@ a:hover {
 }
 .nav-item .nav-link.router-link-exact-active{
   color: var(--success);
+}
+.linkedin-route:hover{
+  transition: transform 1.5s;
+  transform: scale(1.1);
 }
 </style>

@@ -15,6 +15,54 @@
         <!-- TODO Make above image become profile pic -->
       </div>
     </div>
+    <div class="row">
+      <h4 class="p-3 text-light align-items-center">
+        <span class="text-success">
+          Apps I Made
+        </span>
+      </h4>
+    </div>
+    <div class="row">
+      <div class="col mx-3">
+        <div class="card app bg-dark">
+          <img class="card-img-top p-3" src="../assets/img/bootstrap.png" alt="holder.js/100x180/">
+          <div class="card-body">
+            <h4 class="card-title text-success">
+              Transformers Stats
+            </h4>
+            <p class="card-text text-success">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur quae, hic laudantium explicabo similique optio tenetur? Quisquam mollitia omnis dolor corporis quasi ex deleniti! Ad sed eaque assumenda officia.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mx-3">
+        <div class="card app bg-dark">
+          <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/">
+          <div class="card-body">
+            <h4 class="card-title text-success">
+              Node.js
+            </h4>
+            <p class="card-text text-success">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facere pariatur eaque velit ducimus. Porro laboriosam sint facere, temporibus maxime adipisci nam minima sit repellat. Quo inventore velit veniam omnis.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col mx-3">
+        <div class="card app bg-dark">
+          <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/">
+          <div class="card-body">
+            <h4 class="card-title text-success">
+              mongoDB
+            </h4>
+            <p class="card-text text-success">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit minus qui quasi esse earum molestiae, veniam ipsa quo. Quidem non deserunt repudiandae ullam iste modi impedit nesciunt nulla laudantium?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="row-fluid">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 align-items-center">
@@ -105,54 +153,6 @@
         </h4>
       </div>
     </div>
-    <div class="row">
-      <h4 class="p-3 text-light align-items-center">
-        <span class="text-success">
-          Other Skills
-        </span>
-      </h4>
-    </div>
-    <div class="row">
-      <div class="col mx-3">
-        <div class="card bg-dark">
-          <img class="card-img-top p-3" src="../assets/img/bootstrap.png" alt="holder.js/100x180/">
-          <div class="card-body">
-            <h4 class="card-title text-success">
-              Bootstrap 4
-            </h4>
-            <p class="card-text text-success">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur quae, hic laudantium explicabo similique optio tenetur? Quisquam mollitia omnis dolor corporis quasi ex deleniti! Ad sed eaque assumenda officia.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col mx-3">
-        <div class="card border border-success bg-info">
-          <img class="card-img-top p-3 rounded-circle" src="../assets/img/image.jpg" alt="holder.js/100x180/">
-          <div class="card-body">
-            <h4 class="card-title text-success">
-              Node.js
-            </h4>
-            <p class="card-text text-success">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facere pariatur eaque velit ducimus. Porro laboriosam sint facere, temporibus maxime adipisci nam minima sit repellat. Quo inventore velit veniam omnis.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col mx-3">
-        <div class="card border border-success bg-info">
-          <img class="card-img-top p-3 rounded" src="../assets/img/image.jpg" alt="holder.js/100x180/">
-          <div class="card-body">
-            <h4 class="card-title text-success">
-              mongoDB
-            </h4>
-            <p class="card-text text-success">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit minus qui quasi esse earum molestiae, veniam ipsa quo. Quidem non deserunt repudiandae ullam iste modi impedit nesciunt nulla laudantium?
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -169,10 +169,25 @@ export default {
 .home{
   text-align: center;
   user-select: none;
+  animation:  fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
   > img{
     display: block;
     max-width: 100%;
     height: auto;
+  }
+  .app:hover{
+    transition: transform 1.5s;
+    transform: scale(1.1);
   }
   background-color: #313130;
   background-position: center;
