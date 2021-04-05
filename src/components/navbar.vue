@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-      <div class="my-2 d-flex p-2 flex-column align-items-center rounded border border-success">
+      <div class="app my-2 d-flex p-2 flex-column align-items-center rounded border border-success">
         <span class="font-italic">
           <h3>
             Jacob A. Gruver
@@ -29,7 +29,7 @@
         </li>
         <li class="nav-item">
           <router-link :to="{ name: 'About' }" class="nav-link">
-            <i class="fa fa-user fa-lg"></i>
+            <i class="fa fa-file-text"></i>
           </router-link>
         </li>
       </ul>
@@ -124,4 +124,8 @@ a:hover {
   transition: transform 1.5s;
   transform: scale(1.1);
 }
+.app:hover{
+    transition: transform 1.5s;
+    transform: scale(1.1);
+  }
 </style>

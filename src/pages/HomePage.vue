@@ -15,7 +15,7 @@
         <!-- TODO Make above image become profile pic -->
       </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
       <h4 class="p-3 text-light align-items-center">
         <span class="text-success">
           Apps I Made
@@ -62,7 +62,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
     <div class="row-fluid">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 align-items-center">
@@ -85,7 +85,7 @@
     </div>
     <div class="row">
       <div class="col mx-3">
-        <div class="card border border-success bg-info">
+        <div class="app card border border-success bg-info">
           <!-- <img class="card-img-top p-3 rounded-circle" src="../assets/img/html2.png" alt="holder.js/100x180/"> -->
           <div class="card-body text-success">
             <h1>
@@ -95,13 +95,13 @@
               HTML 5
             </h4>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores labore distinctio, ex minima quas accusantium temporibus earum provident, modi suscipit quo dignissimos at doloribus. Consequuntur delectus placeat error recusandae.
+              I work with html 5 with implementation and proper html format that blends with Bootstrap aka. Containers, rows, and Columbs.
             </p>
           </div>
         </div>
       </div>
       <div class="col mx-3">
-        <div class="card border border-success bg-info">
+        <div class="app card border border-success bg-info">
           <!-- <img class="card-img-top p-3 rounded-circle" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
           <div class="card-body text-success">
             <h1>
@@ -111,13 +111,13 @@
               JavaScript
             </h4>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid enim autem neque numquam ipsam? Deleniti, possimus perferendis earum saepe asperiores quasi! Velit voluptates unde aliquam quaerat neque aperiam quidem ipsam!
+              I use JavaScript with frontend app scripting as well as backend Node.js server scripting. I am also familiar with backend dev tool mongoDB.
             </p>
           </div>
         </div>
       </div>
       <div class="col mx-3">
-        <div class="card border border-success bg-info">
+        <div class="app card border border-success bg-info">
           <!-- <img class="card-img-top p-3 rounded-circle" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
           <div class="card-body text-success">
             <h1>
@@ -127,7 +127,7 @@
               CSS 3
             </h4>
             <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veritatis maxime tempore dolorem! Distinctio harum facilis, voluptate iure temporibus, similique incidunt, aut explicabo voluptas esse illo atque eligendi culpa ullam!
+              I also implement CSS within my apps to make them user friendly and look great.
             </p>
           </div>
         </div>
@@ -140,7 +140,7 @@
         </span>
       </h4>
     </div>
-    <div class="row rounded mx-3 row border border-success bg-info">
+    <div class="vue-frame row rounded mx-3 row border border-success bg-info">
       <div class="col-4">
         <img class="p-3" src="../assets/img/logo.png" alt="holder.js/100x180/">
         <!-- <h4 class="text-success pb-3">
@@ -149,7 +149,7 @@
       </div>
       <div class="col-8 pt-3">
         <h4 class="text-success">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur quae, hic laudantium explicabo similique optio tenetur? Quisquam mollitia omnis dolor corporis quasi ex deleniti! Ad sed eaque assumenda officia.
+          I implement Vue 3 as a framework that I am most familiar with. I began learning MVP & DOM JavaScript patterns till I dove into Vue.js.
         </h4>
       </div>
     </div>
@@ -187,7 +187,11 @@ export default {
   }
   .app:hover{
     transition: transform 1.5s;
-    transform: scale(1.1);
+    transform: scale(1.05);
+  }
+  .vue-frame:hover{
+    transition: transform 1.5s;
+    transform: scale(1.02);
   }
   background-color: #313130;
   background-position: center;
