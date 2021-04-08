@@ -63,7 +63,7 @@
         </div>
       </div>
     </div>-->
-    <div class="row-fluid">
+    <div class="row">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 align-items-center">
           <span class="text-success">
@@ -86,7 +86,6 @@
     <div class="row">
       <div class="col mx-3">
         <div class="app card border border-success bg-info">
-          <!-- <img class="card-img-top p-3 rounded-circle" src="../assets/img/html2.png" alt="holder.js/100x180/"> -->
           <div class="card-body text-success">
             <h1>
               <i class="fa fa-html5 fa-lg pb-2" aria-hidden="true"></i>
@@ -102,7 +101,6 @@
       </div>
       <div class="col mx-3">
         <div class="app card border border-success bg-info">
-          <!-- <img class="card-img-top p-3 rounded-circle" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
           <div class="card-body text-success">
             <h1>
               <i class="fa fa-coffee fa-lg pb-2" aria-hidden="true"></i>
@@ -118,7 +116,6 @@
       </div>
       <div class="col mx-3">
         <div class="app card border border-success bg-info">
-          <!-- <img class="card-img-top p-3 rounded-circle" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
           <div class="card-body text-success">
             <h1>
               <i class="fa fa-css3 fa-lg pb-2" aria-hidden="true"></i>
@@ -143,13 +140,10 @@
     <div class="vue-frame row rounded mx-3 row border border-success bg-info">
       <div class="col-4">
         <img class="p-3" src="../assets/img/logo.png" alt="holder.js/100x180/">
-        <!-- <h4 class="text-success pb-3">
-          Vue.js
-        </h4> -->
       </div>
-      <div class="col-8 pt-3">
+      <div class="col-8 pt-5">
         <h4 class="text-success">
-          I implement Vue 3 as a framework that I am most familiar with. I began learning MVP & DOM JavaScript patterns till I dove into Vue.js.
+          I implement Vue 3 and know it best in reguards to its pattern of pages to components as well as implementing js services. I began learning MVP & DOM JavaScript patterns till I dove into Vue.js. It is the framework I am most familiar with.
         </h4>
       </div>
     </div>

@@ -20,24 +20,15 @@
     >
       <span class="navbar-toggler-icon" />
     </button>
-    <div class="collapse navbar-collapse" id="navbarText">
+    <div class="d-flex collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link :to="{ name: 'Home' }" class="nav-link">
-            <i class="fa fa-home fa-lg"></i>
-          </router-link>
-        </li>
-        <li class="nav-item">
           <router-link :to="{ name: 'About' }" class="nav-link">
-            <i class="fa fa-file-text"></i>
+            <i class="app-2 fa fa-user fa-lg" aria-hidden="true"></i>
           </router-link>
         </li>
       </ul>
       <span class="navbar-text">
-        <!-- <a href="gruvinbro@Gmail.com">
-          <i class="fa fa-envelope-o fa-lg"></i>
-        </a> -->
-        <!-- <p class="text-success"> Email: gruvinbro@Gmail.com </p> -->
         <div>
           <a class="linkedin-route btn btn-outline-primary text-primary mr-3" href="https://www.linkedin.com/in/jacob-gruver-6777a61b1/">
             <h5>
@@ -45,54 +36,17 @@
             </h5>
           </a>
         </div>
-
-        <!-- <div class="dropdown">
-          <div
-            class="dropdown-toggle"
-            @click="state.dropOpen = !state.dropOpen"
-          >
-            <img
-              :src="user.picture"
-              alt="user photo"
-              height="40"
-              class="rounded"
-            />
-            <span class="mx-3">{{ user.name }}</span>
-          </div>
-          <div
-            class="dropdown-menu p-0 list-group w-100"
-            :class="{ show: state.dropOpen }"
-            @click="state.dropOpen = false"
-          >
-            <router-link :to="{ name: 'Account' }">
-              <div class="list-group-item list-group-item-action hoverable">
-                Account
-              </div>
-            </router-link>
-            <div
-              class="list-group-item list-group-item-action hoverable"
-              @click="logout"
-            >
-              logout
-            </div>
-          </div>
-        </div> -->
       </span>
     </div>
   </nav>
 </template>
 
 <script>
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
 export default {
   name: 'Navbar',
-  // components: { FontAwesomeIcon },
   data() {
     return {
-      // show: false,
-      // coffeeCup: faCoffee.icon
     }
   }
 }
@@ -122,10 +76,14 @@ a:hover {
 }
 .linkedin-route:hover{
   transition: transform 1.5s;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .app:hover{
     transition: transform 1.5s;
     transform: scale(1.1);
+  }
+  .app-2:hover{
+    transition: transform 1.5s;
+    transform: scale(1.5);
   }
 </style>
