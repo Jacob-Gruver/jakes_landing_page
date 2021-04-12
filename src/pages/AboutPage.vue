@@ -1,6 +1,7 @@
 <template>
-  <div class="about">
+  <div class="about flex-grow-1 d-flex flex-column align-items-center justify-content-center">
     <!-- <h1>This is the about page</h1> -->
+    <img class="" src="../assets/img/Gruver-Jacob.png">
   </div>
 </template>
 
@@ -9,12 +10,23 @@ export default {
   name: 'AboutPage'
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 .about{
-  background-image: url(../assets/img/Gruver-Jacob.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  animation:  fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+}
+img{
+  height: 1800px;
+  width: 1400px;
 }
 
 </style>

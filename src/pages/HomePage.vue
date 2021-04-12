@@ -11,7 +11,9 @@
         </h3>
       </div>
       <div class="col">
-        <img src="../assets/img/node.jpg" class="my-3 mx-3 rounded-circle border border-success">
+        <div class="my-3 mx-3 rounded-circle border border-success img-over-img">
+          <img src="../assets/img/profile-pic.png" class="my-3 mx-3 rounded-circle border border-success prof-pic">
+        </div>
         <!-- TODO Make above image become profile pic -->
       </div>
     </div>
@@ -124,7 +126,7 @@
               CSS 3
             </h4>
             <p class="card-text">
-              I also implement CSS within my apps to make them user friendly and look great.
+              I also implement CSS & SCSS within my apps to make them user friendly and visually pleasing.
             </p>
           </div>
         </div>
@@ -176,16 +178,23 @@ export default {
   }
   > img{
     display: block;
-    max-width: 100%;
+    max-width: 20%;
     height: auto;
   }
+  .prof-pic{
+    height: 438px;
+    width: 294px;
+  }
   .app:hover{
-    transition: transform 1.5s;
+    transition: transform 1s;
     transform: scale(1.05);
   }
   .vue-frame:hover{
-    transition: transform 1.5s;
+    transition: transform 1s;
     transform: scale(1.02);
+  }
+  .img-over-img{
+    background-image: url(../assets/img/node.jpg);
   }
   background-color: #313130;
   background-position: center;
