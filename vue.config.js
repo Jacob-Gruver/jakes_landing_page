@@ -1,6 +1,6 @@
 module.exports = {
   // NOTE to host on github publicPath: '/YOUR-GITHUB-REPOSITORY-NAME/',
-  publicPath: '/jacob-gruver.github.io/jakes_landing_page/',
+  publicPath: '/https://github.com/Jacob-Gruver/',
   outputDir: 'docs',
   productionSourceMap: false
 }
