@@ -1,18 +1,39 @@
 <template>
-  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+  <div
+    class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center"
+  >
     <div class="row">
       <div class="col">
         <h1 class="my-5 mx-3 text-light p-3 rounded align-items-center">
           <span class="mx-2 text-success">Hi, my name is Jacob Gruver.</span>
         </h1>
         <h3 class="my-5 mx-3 text-success p-3 justify-content-start">
-          <p>I am a Full Stack Software Developer who began my programming journey attending a C++ class while working for an Electronics Technician degree.</p>
-          <p>Since then I have a desire to solve problems and grow my skills as a developer.</p>
+          <p>
+            I am a Full Stack Software Developer who loves to expand my
+            creativity and knowledge in developing fantastic web applications.
+          </p>
+          <p>
+            Web applications should follow several industry standards which
+            include,
+          </p>
+          <ul>
+            <li>Desighn that is professionaly pleasing to visit,</li>
+            <li>
+              Functionality that promotes ease of axcess and is simple for all
+              users,
+            </li>
+            <li>And visual animations that make the app feel alive!</li>
+          </ul>
         </h3>
       </div>
       <div class="col">
-        <div class="my-3 mx-3 rounded-circle border border-success img-over-img">
-          <img src="../assets/img/profile-pic.png" class="my-3 mx-3 rounded-circle border border-success prof-pic">
+        <div
+          class="my-3 mx-3 rounded-circle border border-success img-over-img"
+        >
+          <img
+            src="../assets/img/profile-pic.png"
+            class="my-3 mx-3 rounded-circle border border-success prof-pic"
+          />
         </div>
         <!-- TODO Make above image become profile pic -->
       </div>
@@ -68,21 +89,15 @@
     <div class="row">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 align-items-center">
-          <span class="text-success">
-            Skills
-          </span>
+          <span class="text-success"> Skills </span>
         </h2>
       </div>
     </div>
-    <p class="text-success">
-      ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    </p>
+    <hr class="solid" />
     <!-- NOTE above line needs to be replaced with a break of some kind -->
     <div class="row">
       <h4 class="pb-3 text-light align-items-center">
-        <span class="text-success">
-          Computer Languages
-        </span>
+        <span class="text-success"> Computer Languages </span>
       </h4>
     </div>
     <div class="row">
@@ -92,11 +107,10 @@
             <h1>
               <i class="fa fa-html5 fa-lg pb-2" aria-hidden="true"></i>
             </h1>
-            <h4 class="card-title">
-              HTML 5
-            </h4>
+            <h4 class="card-title">HTML 5</h4>
             <p class="card-text">
-              I work with html 5 with implementation and proper html format that blends with Bootstrap aka. Containers, rows, and Columbs.
+              Strong proficency in html 5 & implemented html with bootstrap &
+              font-awesome.
             </p>
           </div>
         </div>
@@ -107,11 +121,11 @@
             <h1>
               <i class="fa fa-coffee fa-lg pb-2" aria-hidden="true"></i>
             </h1>
-            <h4 class="card-title">
-              JavaScript
-            </h4>
+            <h4 class="card-title">JavaScript</h4>
             <p class="card-text">
-              I use JavaScript with frontend app scripting as well as backend Node.js server scripting. I am also familiar with backend dev tool mongoDB.
+              I use JavaScript with frontend app scripting as well as backend
+              Node.js server scripting. I am also familiar with backend dev tool
+              mongoDB.
             </p>
           </div>
         </div>
@@ -122,11 +136,10 @@
             <h1>
               <i class="fa fa-css3 fa-lg pb-2" aria-hidden="true"></i>
             </h1>
-            <h4 class="card-title">
-              CSS 3
-            </h4>
+            <h4 class="card-title">CSS 3</h4>
             <p class="card-text">
-              I also implement CSS & SCSS within my apps to make them user friendly and visually pleasing.
+              I also implement CSS & SCSS within my apps to make them user
+              friendly and visually pleasing.
             </p>
           </div>
         </div>
@@ -134,19 +147,23 @@
     </div>
     <div class="row">
       <h4 class="p-3 text-light align-items-center">
-        <span class="text-success">
-          Vue.js Frameworks
-        </span>
+        <span class="text-success"> Vue.js Frameworks </span>
       </h4>
     </div>
     <div class="vue-frame row rounded mx-3 row border border-success bg-info">
       <div class="col-4">
-        <img class="p-3" src="../assets/img/logo.png" alt="holder.js/100x180/">
+        <img
+          class="p-3"
+          src="../assets/img/logo.png"
+          alt="holder.js/100x180/"
+        />
       </div>
       <div class="col-8 pt-5">
-        <h4 class="text-success">
-          I implement Vue 3 and know it best in reguards to its pattern of pages to components as well as implementing js services. I began learning MVP & DOM JavaScript patterns till I dove into Vue.js. It is the framework I am most familiar with.
-        </h4>
+        <h3 class="text-success">
+          I use the Vue 3 Framework to build my apps. I began using MVP & DOM
+          JavaScript patterns before learning and using Vue and have a desire to
+          learn more frameworks to expand my proficiency in JavaScript.
+        </h3>
       </div>
     </div>
   </div>
@@ -155,17 +172,16 @@
 <script>
 export default {
   data() {
-    return {
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style scoped lang="scss">
-.home{
+.home {
   text-align: center;
   user-select: none;
-  animation:  fadeInAnimation ease 3s;
+  animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   @keyframes fadeInAnimation {
@@ -176,24 +192,27 @@ export default {
       opacity: 1;
     }
   }
-  > img{
+  > img {
     display: block;
     max-width: 20%;
     height: auto;
   }
-  .prof-pic{
+  .prof-pic {
     height: 438px;
     width: 294px;
   }
-  .app:hover{
+  hr.solid {
+    border-top: 3px solid #bbb;
+  }
+  .app:hover {
     transition: transform 1s;
     transform: scale(1.05);
   }
-  .vue-frame:hover{
+  .vue-frame:hover {
     transition: transform 1s;
     transform: scale(1.02);
   }
-  .img-over-img{
+  .img-over-img {
     background-image: url(../assets/img/node.jpg);
   }
   background-color: #313130;
