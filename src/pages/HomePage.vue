@@ -17,9 +17,9 @@
             include,
           </p>
           <ul>
-            <li>Desighn that is professionaly pleasing to visit,</li>
+            <li>Design that is professionally pleasing to visit,</li>
             <li>
-              Functionality that promotes ease of axcess and is simple for all
+              Functionality that promotes ease of excess and is simple for all
               users,
             </li>
             <li>And visual animations that make the app feel alive!</li>
@@ -109,7 +109,7 @@
             </h1>
             <h4 class="card-title">HTML 5</h4>
             <p class="card-text">
-              Strong proficency in html 5 & implemented html with bootstrap &
+              Strong proficiency in html 5 & implemented html with bootstrap &
               font-awesome.
             </p>
           </div>
