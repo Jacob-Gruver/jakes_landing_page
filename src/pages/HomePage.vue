@@ -169,8 +169,6 @@
         <h3 class="text-success">
           I am familiar with Vue 3.
 
-
-
           I use the Vue 3 Framework using MVC & DOM JavaScript patterns before learning and using Vue and have a desire to
           learn more frameworks to expand my proficiency in JavaScript.
         </h3>
@@ -219,7 +217,7 @@
     background-image: url(../assets/img/node.jpg);
     width: 750px;
     height: 562px;
-    box-shadow: 0 0 12px 12px #313130 inset;
+    box-shadow: 0 0 20px 20px #313130 inset;
   }
 
   background-color: #313130;
