@@ -2,21 +2,14 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div
-        class="app my-2 d-flex p-2 flex-column align-items-center rounded border border-success"
+        class="my-2 d-flex p-2 flex-column align-items-center rounded border border-success"
       >
         <span class="font-italic">
-          <h3>Jacob A. Gruver</h3>
+          <h3>Hi, my name is Jacob A. Gruver</h3>
         </span>
       </div>
     </router-link>
-    <div class="d-flex collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <!-- <router-link :to="{ name: 'About' }" class="nav-link">
-            <i class="app-2 fa fa-user fa-lg" aria-hidden="true"></i>
-          </router-link> -->
-        </li>
-      </ul>
+    <div class="d-flex collapse navbar-collapse justify-content-end" id="navbarText">
       <span class="navbar-text">
         <div>
           <a
@@ -36,11 +29,11 @@
 
 <script>
 export default {
-  name: "Navbar",
+  name: 'Navbar',
   data() {
-    return {};
-  },
-};
+    return {}
+  }
+}
 </script>
 
 <style scoped>
