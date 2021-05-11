@@ -1,41 +1,38 @@
+
 <template>
-  <div
-    class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center"
-  >
+  <div class="home flex-grow-1 d-flex flex-column">
     <div class="row">
       <div class="col">
-        <h1 class="my-5 mx-3 text-light p-3 rounded align-items-center">
-          <span class="mx-2 text-success">Hi, my name is Jacob Gruver.</span>
-        </h1>
-        <h3 class="my-5 mx-3 text-success p-3 justify-content-start">
+        <h3 class="my-5 mx-3 text-success p-3 pt-5">
           <p>
-            I am a Full Stack Software Developer who loves to expand my
+            I am a software developer who loves to expand my
             creativity and knowledge in developing fantastic web applications.
           </p>
           <p>
-            Web applications should follow several industry standards which
-            include,
+            I believe web applications should follow several industry standards which
+            include:
           </p>
           <ul>
-            <li>Design that is professionally pleasing to visit,</li>
-            <li>
-              Functionality that promotes ease of excess and is simple for all
-              users,
+            <li class="pt-2">
+              Design that is professional and pleasing to visit
             </li>
-            <li>And visual animations that make the app feel alive!</li>
+            <li class="pt-2">
+              Functionality that promotes ease of access for all
+              users
+            </li>
+            <li class="pt-2">
+              Visual animations that make the app feel alive!
+            </li>
           </ul>
         </h3>
       </div>
-      <div class="col">
-        <div
-          class="my-3 mx-3 rounded-circle border border-success img-over-img"
-        >
+      <div class="col text-center">
+        <div class="m-3 align-self-center rounded-circle img-over-img">
           <img
             src="../assets/img/profile-pic.png"
-            class="my-3 mx-3 rounded-circle border border-success prof-pic"
+            class="m-3 mt-4 p-1 rounded-circle border border-success prof-pic"
           />
         </div>
-        <!-- TODO Make above image become profile pic -->
       </div>
     </div>
     <!-- <div class="row">
@@ -88,15 +85,13 @@
     </div>-->
     <div class="row">
       <div class="col">
-        <h2 class="my-4 mx-3 pt-3 align-items-center">
+        <h2 class="my-4 mx-3 pt-3 text-center">
           <span class="text-success"> Skills </span>
         </h2>
       </div>
     </div>
-    <hr class="solid" />
-    <!-- NOTE above line needs to be replaced with a break of some kind -->
-    <div class="row">
-      <h4 class="pb-3 text-light align-items-center">
+    <div class="row justify-content-center">
+      <h4 class="pb-3 text-light">
         <span class="text-success"> Computer Languages </span>
       </h4>
     </div>
@@ -104,28 +99,36 @@
       <div class="col mx-3">
         <div class="app card border border-success bg-info">
           <div class="card-body text-success">
-            <h1>
-              <i class="fa fa-html5 fa-lg pb-2" aria-hidden="true"></i>
-            </h1>
-            <h4 class="card-title">HTML 5</h4>
+            <div class="text-center">
+              <h1>
+                <i class="fa fa-html5 fa-lg pb-2" aria-hidden="true"></i>
+              </h1>
+              <h4 class="card-title">
+                HTML 5
+              </h4>
+            </div>
             <p class="card-text">
-              Strong proficiency in html 5 & implemented html with bootstrap &
+              Strong proficiency in html 5, bootstrap and
               font-awesome.
             </p>
           </div>
         </div>
       </div>
       <div class="col mx-3">
-        <div class="app card border border-success bg-info">
+        <div class="app card border border-success bg-info ">
           <div class="card-body text-success">
-            <h1>
-              <i class="fa fa-coffee fa-lg pb-2" aria-hidden="true"></i>
-            </h1>
-            <h4 class="card-title">JavaScript</h4>
+            <div class="text-center">
+              <h1>
+                <i class="fa fa-coffee fa-lg pb-2" aria-hidden="true"></i>
+              </h1>
+              <h4 class="card-title">
+                JavaScript
+              </h4>
+            </div>
             <p class="card-text">
-              I use JavaScript with frontend app scripting as well as backend
-              Node.js server scripting. I am also familiar with backend dev tool
-              mongoDB.
+              I use JavaScript with frontend app scripting, backend
+              Node.js server scripting, and I am familiar with backend dev tool
+              Postman.
             </p>
           </div>
         </div>
@@ -133,25 +136,29 @@
       <div class="col mx-3">
         <div class="app card border border-success bg-info">
           <div class="card-body text-success">
-            <h1>
-              <i class="fa fa-css3 fa-lg pb-2" aria-hidden="true"></i>
-            </h1>
-            <h4 class="card-title">CSS 3</h4>
+            <div class="text-center">
+              <h1>
+                <i class="fa fa-css3 fa-lg pb-2" aria-hidden="true"></i>
+              </h1>
+              <h4 class="card-title">
+                CSS 3
+              </h4>
+            </div>
             <p class="card-text">
-              I also implement CSS & SCSS within my apps to make them user
+              I implement CSS & SCSS within my apps to make them user
               friendly and visually pleasing.
             </p>
           </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <h4 class="p-3 text-light align-items-center">
+    <div class="row justify-content-center">
+      <h4 class="p-3 text-light">
         <span class="text-success"> Vue.js Frameworks </span>
       </h4>
     </div>
     <div class="vue-frame row rounded mx-3 row border border-success bg-info">
-      <div class="col-4">
+      <div class="col-4 text-center">
         <img
           class="p-3"
           src="../assets/img/logo.png"
@@ -160,8 +167,11 @@
       </div>
       <div class="col-8 pt-5">
         <h3 class="text-success">
-          I use the Vue 3 Framework to build my apps. I began using MVP & DOM
-          JavaScript patterns before learning and using Vue and have a desire to
+          I am familiar with Vue 3.
+
+
+
+          I use the Vue 3 Framework using MVC & DOM JavaScript patterns before learning and using Vue and have a desire to
           learn more frameworks to expand my proficiency in JavaScript.
         </h3>
       </div>
@@ -169,17 +179,11 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {};
-  },
-};
-</script>
+<script></script>
 
 <style scoped lang="scss">
 .home {
-  text-align: center;
+  // text-align: center;
   user-select: none;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -198,11 +202,10 @@ export default {
     height: auto;
   }
   .prof-pic {
-    height: 438px;
-    width: 294px;
-  }
-  hr.solid {
-    border-top: 3px solid #bbb;
+    text-align: center;
+    height: 520px;
+    width: 360px;
+    background-color: #3fb44f;
   }
   .app:hover {
     transition: transform 1s;
@@ -210,11 +213,15 @@ export default {
   }
   .vue-frame:hover {
     transition: transform 1s;
-    transform: scale(1.02);
+    transform: scale(1.01);
   }
   .img-over-img {
     background-image: url(../assets/img/node.jpg);
+    width: 750px;
+    height: 562px;
+    box-shadow: 0 0 12px 12px #313130 inset;
   }
+
   background-color: #313130;
   background-position: center;
   background-size: cover;
