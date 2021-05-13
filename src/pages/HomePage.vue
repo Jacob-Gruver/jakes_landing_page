@@ -36,16 +36,16 @@
       </div>
     </div>
     <div class="row">
-      <h4 class="p-3 text-light align-items-center">
-        <span class="text-success">
-          Apps I Made
-        </span>
-      </h4>
+      <div class="col">
+        <h2 class="my-4 mx-3 pt-3 text-center">
+          <span class="text-success"> Apps I Made </span>
+        </h2>
+      </div>
     </div>
+    <!-- App section -->
     <div class="row">
       <div class="col mx-3">
-        <div class="card app bg-dark">
-          <!-- <img class="card-img-top p-3" src="../assets/img/bootstrap.png" alt="holder.js/100x180/"> -->
+        <div class="card apps bg-dark">
           <div class="card-body">
             <h4 class="card-title text-success">
               Transformers Stats
@@ -57,8 +57,7 @@
         </div>
       </div>
       <div class="col mx-3">
-        <div class="card app bg-dark">
-          <!-- <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
+        <div class="card apps bg-dark">
           <div class="card-body">
             <h4 class="card-title text-success">
               Node.js
@@ -70,8 +69,7 @@
         </div>
       </div>
       <div class="col mx-3">
-        <div class="card app bg-dark">
-          <!-- <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
+        <div class="card apps bg-dark">
           <div class="card-body">
             <h4 class="card-title text-success">
               mongoDB
@@ -83,6 +81,7 @@
         </div>
       </div>
     </div>
+    <!-- End Section -->
     <div class="row">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 text-center">
@@ -95,9 +94,9 @@
         <span class="text-success"> Computer Languages </span>
       </h4>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col mx-3">
-        <div class="app card border border-success bg-info">
+        <div class="app-card card border border-success bg-info">
           <div class="card-body text-success">
             <div class="text-center">
               <h1>
@@ -107,15 +106,15 @@
                 HTML 5
               </h4>
             </div>
-            <p class="card-text">
+            <h5 class="card-text">
               Strong proficiency in html 5, bootstrap and
               font-awesome.
-            </p>
+            </h5>
           </div>
         </div>
       </div>
-      <div class="col mx-3">
-        <div class="app card border border-success bg-info ">
+      <div class="col mx-3 justify-self-center">
+        <div class="app-card card border border-success bg-info ">
           <div class="card-body text-success">
             <div class="text-center">
               <h1>
@@ -125,16 +124,16 @@
                 JavaScript
               </h4>
             </div>
-            <p class="card-text">
+            <h5 class="card-text">
               I use JavaScript, backend
               Node.js server scripting, mongoDB database, and I am familiar with backend dev tool
               Postman.
-            </p>
+            </h5>
           </div>
         </div>
       </div>
-      <div class="col mx-3">
-        <div class="app card border border-success bg-info">
+      <div class="col mx-3 align-self-center">
+        <div class="app-card card border border-success bg-info">
           <div class="card-body text-success">
             <div class="text-center">
               <h1>
@@ -144,10 +143,10 @@
                 CSS 3
               </h4>
             </div>
-            <p class="card-text">
+            <h5 class="card-text">
               I implement CSS & SCSS within my apps to make them user
               friendly and visually pleasing.
-            </p>
+            </h5>
           </div>
         </div>
       </div>
@@ -157,7 +156,7 @@
         <span class="text-success"> Vue.js Frameworks </span>
       </h4>
     </div>
-    <div class="vue-frame row rounded mx-3 row border border-success bg-info">
+    <div class="vue-frame align-self-center row rounded mx-3 row border border-success bg-info">
       <div class="col-4 text-center">
         <img
           class="p-3"
@@ -205,13 +204,31 @@
     width: 360px;
     background-color: #3fb44f;
   }
-  .app:hover {
+
+  .app-card {
+    width: 550px;
+    height: 220px;
+  }
+
+  .app-card:hover {
     transition: transform 1s;
     transform: scale(1.05);
   }
+  .apps {
+    width: 580px;
+    height: 250px;
+  }
+  .apps:hover {
+    transition: transform 1s;
+    transform: scale(1.05);
+  }
+  .vue-frame {
+    width: 1420px;
+    height: 230px;
+  }
   .vue-frame:hover {
     transition: transform 1s;
-    transform: scale(1.01);
+    transform: scale(1.05);
   }
   .img-over-img {
     background-image: url(../assets/img/node.jpg);
