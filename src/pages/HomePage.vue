@@ -45,7 +45,7 @@
     <!-- App section -->
     <div class="row">
       <div class="col mx-3">
-        <div class="card apps bg-dark">
+        <div class="card apps">
           <div class="card-body">
             <h4 class="card-title text-success">
               Transformers Stats
@@ -57,7 +57,7 @@
         </div>
       </div>
       <div class="col mx-3">
-        <div class="card apps bg-dark">
+        <div class="card apps">
           <div class="card-body">
             <h4 class="card-title text-success">
               Node.js
@@ -69,7 +69,7 @@
         </div>
       </div>
       <div class="col mx-3">
-        <div class="card apps bg-dark">
+        <div class="card apps">
           <div class="card-body">
             <h4 class="card-title text-success">
               mongoDB
@@ -94,8 +94,8 @@
         <span class="text-success"> Computer Languages </span>
       </h4>
     </div>
-    <div class="row justify-content-center">
-      <div class="col mx-3">
+    <div class="row">
+      <div class="col-4">
         <div class="app-card card border border-success bg-info">
           <div class="card-body text-success">
             <div class="text-center">
@@ -113,7 +113,7 @@
           </div>
         </div>
       </div>
-      <div class="col mx-3 justify-self-center">
+      <div class="col-4">
         <div class="app-card card border border-success bg-info ">
           <div class="card-body text-success">
             <div class="text-center">
@@ -132,7 +132,7 @@
           </div>
         </div>
       </div>
-      <div class="col mx-3 align-self-center">
+      <div class="col-4">
         <div class="app-card card border border-success bg-info">
           <div class="card-body text-success">
             <div class="text-center">
@@ -206,7 +206,8 @@
   }
 
   .app-card {
-    width: 550px;
+    margin: auto;
+    width: 500px;
     height: 220px;
   }
 
@@ -215,6 +216,7 @@
     transform: scale(1.05);
   }
   .apps {
+    background-color: aqua;
     width: 580px;
     height: 250px;
   }
