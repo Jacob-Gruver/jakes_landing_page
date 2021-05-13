@@ -2,7 +2,7 @@
 <template>
   <div class="home flex-grow-1 d-flex flex-column">
     <div class="row">
-      <div class="col">
+      <div class="col-5">
         <h3 class="my-5 mx-3 text-success p-3 pt-5">
           <p>
             I am a software developer who loves to expand my
@@ -26,8 +26,8 @@
           </ul>
         </h3>
       </div>
-      <div class="col text-center">
-        <div class="m-3 align-self-center rounded-circle img-over-img">
+      <div class="col-7 text-center">
+        <div class="rounded-circle img-over-img">
           <img
             src="../assets/img/profile-pic.png"
             class="m-3 mt-4 p-1 rounded-circle border border-success prof-pic"
@@ -234,6 +234,7 @@
   }
   .img-over-img {
     background-image: url(../assets/img/node.jpg);
+    margin: auto;
     width: 750px;
     height: 562px;
     box-shadow: 0 0 20px 20px #313130 inset;
