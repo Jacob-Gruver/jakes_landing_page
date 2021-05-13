@@ -35,7 +35,7 @@
         </div>
       </div>
     </div>
-    <!-- <div class="row">
+    <div class="row">
       <h4 class="p-3 text-light align-items-center">
         <span class="text-success">
           Apps I Made
@@ -45,7 +45,7 @@
     <div class="row">
       <div class="col mx-3">
         <div class="card app bg-dark">
-          <img class="card-img-top p-3" src="../assets/img/bootstrap.png" alt="holder.js/100x180/">
+          <!-- <img class="card-img-top p-3" src="../assets/img/bootstrap.png" alt="holder.js/100x180/"> -->
           <div class="card-body">
             <h4 class="card-title text-success">
               Transformers Stats
@@ -58,7 +58,7 @@
       </div>
       <div class="col mx-3">
         <div class="card app bg-dark">
-          <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/">
+          <!-- <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
           <div class="card-body">
             <h4 class="card-title text-success">
               Node.js
@@ -71,7 +71,7 @@
       </div>
       <div class="col mx-3">
         <div class="card app bg-dark">
-          <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/">
+          <!-- <img class="card-img-top p-3" src="../assets/img/image.jpg" alt="holder.js/100x180/"> -->
           <div class="card-body">
             <h4 class="card-title text-success">
               mongoDB
@@ -82,7 +82,7 @@
           </div>
         </div>
       </div>
-    </div>-->
+    </div>
     <div class="row">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 text-center">
@@ -126,8 +126,8 @@
               </h4>
             </div>
             <p class="card-text">
-              I use JavaScript with frontend app scripting, backend
-              Node.js server scripting, and I am familiar with backend dev tool
+              I use JavaScript, backend
+              Node.js server scripting, mongoDB database, and I am familiar with backend dev tool
               Postman.
             </p>
           </div>
