@@ -167,7 +167,6 @@
       <div class="col-8 pt-5">
         <h3 class="text-success">
           I am familiar with Vue 3.
-
           I use the Vue 3 Framework using MVC & DOM JavaScript patterns before learning and using Vue and have a desire to
           learn more frameworks to expand my proficiency in JavaScript.
         </h3>
