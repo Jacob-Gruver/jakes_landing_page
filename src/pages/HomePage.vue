@@ -48,10 +48,10 @@
         <div class="card apps">
           <div class="card-body">
             <h4 class="card-title text-success">
-              Transformers Stats
+              Super Moon!
             </h4>
             <p class="card-text text-success">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur quae, hic laudantium explicabo similique optio tenetur? Quisquam mollitia omnis dolor corporis quasi ex deleniti! Ad sed eaque assumenda officia.
+              This simple JavaScript game is loads of fun building and playing.
             </p>
           </div>
         </div>
@@ -60,7 +60,7 @@
         <div class="card apps">
           <div class="card-body">
             <h4 class="card-title text-success">
-              Node.js
+              App 2
             </h4>
             <p class="card-text text-success">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facere pariatur eaque velit ducimus. Porro laboriosam sint facere, temporibus maxime adipisci nam minima sit repellat. Quo inventore velit veniam omnis.
@@ -72,7 +72,7 @@
         <div class="card apps">
           <div class="card-body">
             <h4 class="card-title text-success">
-              mongoDB
+              App 3
             </h4>
             <p class="card-text text-success">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit minus qui quasi esse earum molestiae, veniam ipsa quo. Quidem non deserunt repudiandae ullam iste modi impedit nesciunt nulla laudantium?
@@ -216,7 +216,8 @@
   }
   .apps {
     background-color: aqua;
-    width: 580px;
+    margin: auto;
+    width: 480px;
     height: 250px;
   }
   .apps:hover {
