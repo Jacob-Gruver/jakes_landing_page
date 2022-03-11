@@ -10,7 +10,7 @@
     </router-view>
   </main>
   <footer>
-    <div class="bg-dark text-success text-center p-4">
+    <div class="text-primary text-center p-4">
       Made with 💖 by a CodeMonkey
     </div>
   </footer>
@@ -30,5 +30,9 @@ export default {
 </script>
 <style lang="scss">
 @import "./assets/scss/main.scss";
+
+footer {
+  background-color: azure;
+}
 
 </style>

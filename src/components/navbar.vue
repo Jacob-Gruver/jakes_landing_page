@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div
-        class="my-2 d-flex p-2 flex-column align-items-center rounded border border-success"
+        class="my-2 d-flex p-2 flex-column align-items-center"
       >
         <span class="font-italic">
           <h3>Hi, my name is Jacob A. Gruver</h3>
@@ -37,6 +37,9 @@ export default {
 </script>
 
 <style scoped>
+.navbar {
+  background-color: azure;
+}
 .dropdown-menu {
   user-select: none;
   display: block;

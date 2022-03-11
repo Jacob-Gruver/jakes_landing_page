@@ -3,7 +3,7 @@
   <div class="home flex-grow-1 d-flex flex-column">
     <div class="row">
       <div class="col-5">
-        <h3 class="my-5 mx-3 text-success p-3 pt-5">
+        <h3 class="my-5 mx-3 text-primary p-3 pt-5">
           <p>
             I am a software developer who loves to expand my
             creativity and knowledge in developing fantastic web applications.
@@ -38,7 +38,7 @@
     <div class="row">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 text-center">
-          <span class="text-success"> Apps I Made </span>
+          <span class="text-primary"> Apps I Made </span>
         </h2>
       </div>
     </div>
@@ -47,10 +47,10 @@
       <div class="col mx-3">
         <div class="card apps">
           <div class="card-body">
-            <h4 class="card-title text-success">
+            <h4 class="card-title text-primary">
               Super Moon!
             </h4>
-            <p class="card-text text-success">
+            <p class="card-text text-primary">
               This simple JavaScript game is loads of fun building and playing.
             </p>
           </div>
@@ -59,10 +59,10 @@
       <div class="col mx-3">
         <div class="card apps">
           <div class="card-body">
-            <h4 class="card-title text-success">
+            <h4 class="card-title text-primary">
               App 2
             </h4>
-            <p class="card-text text-success">
+            <p class="card-text text-primary">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum facere pariatur eaque velit ducimus. Porro laboriosam sint facere, temporibus maxime adipisci nam minima sit repellat. Quo inventore velit veniam omnis.
             </p>
           </div>
@@ -71,10 +71,10 @@
       <div class="col mx-3">
         <div class="card apps">
           <div class="card-body">
-            <h4 class="card-title text-success">
+            <h4 class="card-title text-primary">
               App 3
             </h4>
-            <p class="card-text text-success">
+            <p class="card-text text-primary">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugit minus qui quasi esse earum molestiae, veniam ipsa quo. Quidem non deserunt repudiandae ullam iste modi impedit nesciunt nulla laudantium?
             </p>
           </div>
@@ -85,19 +85,19 @@
     <div class="row">
       <div class="col">
         <h2 class="my-4 mx-3 pt-3 text-center">
-          <span class="text-success"> Skills </span>
+          <span class="text-primary"> Skills </span>
         </h2>
       </div>
     </div>
     <div class="row justify-content-center">
       <h4 class="pb-3 text-light">
-        <span class="text-success"> Computer Languages </span>
+        <span class="text-primary"> Computer Languages </span>
       </h4>
     </div>
     <div class="row">
       <div class="col-4">
         <div class="app-card card bg-info">
-          <div class="card-body text-success">
+          <div class="card-body text-primary">
             <div class="text-center">
               <h1>
                 <i class="fa fa-html5 fa-lg pb-2" aria-hidden="true"></i>
@@ -114,8 +114,8 @@
         </div>
       </div>
       <div class="col-4">
-        <div class="app-card card border border-success bg-info ">
-          <div class="card-body text-success">
+        <div class="app-card card border border-primry bg-info ">
+          <div class="card-body text-primary">
             <div class="text-center">
               <h1>
                 <i class="fa fa-coffee fa-lg pb-2" aria-hidden="true"></i>
@@ -133,8 +133,8 @@
         </div>
       </div>
       <div class="col-4">
-        <div class="app-card card border border-success bg-info">
-          <div class="card-body text-success">
+        <div class="app-card card border border-primary bg-info">
+          <div class="card-body text-primary">
             <div class="text-center">
               <h1>
                 <i class="fa fa-css3 fa-lg pb-2" aria-hidden="true"></i>
@@ -153,10 +153,10 @@
     </div>
     <div class="row justify-content-center">
       <h4 class="p-3 text-light">
-        <span class="text-success"> Vue.js Frameworks </span>
+        <span class="text-primary"> Vue.js Frameworks </span>
       </h4>
     </div>
-    <div class="vue-frame align-self-center row rounded mx-3 row border border-success bg-info">
+    <div class="vue-frame align-self-center row rounded mx-3 row border border-primary bg-info">
       <div class="col-4 text-center">
         <img
           class="p-3"
@@ -165,7 +165,7 @@
         />
       </div>
       <div class="col-8 pt-5">
-        <h3 class="text-success">
+        <h3 class="text-primary">
           I am familiar with Vue 3.
           I use the Vue 3 Framework using MVC & DOM JavaScript patterns before learning and using Vue and have a desire to
           learn more frameworks to expand my proficiency in JavaScript.
@@ -179,7 +179,6 @@
 
 <style scoped lang="scss">
 .home {
-  // text-align: center;
   user-select: none;
   animation: fadeInAnimation ease 3s;
   animation-iteration-count: 1;
@@ -215,7 +214,7 @@
     transform: scale(1.05);
   }
   .apps {
-    background-color: aqua;
+    background-color: skyblue;
     margin: auto;
     width: 480px;
     height: 250px;
@@ -240,7 +239,6 @@
     box-shadow: 0 0 20px 20px azure inset;
   }
 
-  // background-color: #313130;
   background-color: azure;
   background-position: center;
   background-size: cover;
