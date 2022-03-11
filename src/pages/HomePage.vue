@@ -26,7 +26,7 @@
           </ul>
         </h3>
       </div>
-      <div class="col-7 text-center">
+      <div class="col-7 text-center p-3 my-3">
         <div class="rounded-circle img-over-img">
           <img
             src="../assets/img/profile-pic.png"
@@ -96,7 +96,7 @@
     </div>
     <div class="row">
       <div class="col-4">
-        <div class="app-card card border border-success bg-info">
+        <div class="app-card card bg-info">
           <div class="card-body text-success">
             <div class="text-center">
               <h1>
@@ -237,7 +237,7 @@
     margin: auto;
     width: 750px;
     height: 562px;
-    box-shadow: 0 0 20px 20px #313130 inset;
+    box-shadow: 0 0 20px 20px azure inset;
   }
 
   // background-color: #313130;
