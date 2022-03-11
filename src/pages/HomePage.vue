@@ -201,7 +201,7 @@
     text-align: center;
     height: 520px;
     width: 360px;
-    background-color: #3fb44f;
+    background-color: azure;
   }
 
   .app-card {
