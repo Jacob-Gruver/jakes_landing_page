@@ -240,7 +240,8 @@
     box-shadow: 0 0 20px 20px #313130 inset;
   }
 
-  background-color: #313130;
+  // background-color: #313130;
+  background-color: azure;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
